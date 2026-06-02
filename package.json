@@ -1,0 +1,22 @@
+{
+  "name": "webhook",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "dev": "bun --hot server.ts"
+  },
+  "private": true,
+  "devDependencies": {
+    "@types/bun": "^1.3.14",
+    "@types/express": "^5.0.6",
+    "@types/node": "^25.9.1"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "@octokit/webhooks": "^14.2.0",
+    "cors": "^2.8.6",
+    "express": "^5.2.1"
+  }
+}
